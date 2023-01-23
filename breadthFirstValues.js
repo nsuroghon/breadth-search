@@ -61,7 +61,6 @@ const treeSum = (root) => {
 
     while(queue.length > 0) {
         const current = queue.shift();
-        console.log(current.val)
         sum += current.val;
 
         if(current.left) queue.push(current.left)
